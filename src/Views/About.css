@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+#about
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading
+{
+  color: green;
+  font-family: Rajdhani;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 0 0 3px, 0 0 3px, 0 0 3px;
+}
+
+.skills
+{
+  background-color:#000000;
+  width: 80%;
+  height: 80%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.skills svg
+{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  color: purple;
+  box-shadow: 0 0 10px, 0 0 10px, 0 0 10px;
+}
+
+.skills svg:hover
+{
+  color: cyan;
+}
+
+.text2{
+  background-color:#000000;
+  z-index: 1;
+  font-size: 30px;
+  color: green;
+  text-shadow: 0 0 3px, 0 0 3px, 0 0 3px;
+  margin-left: 100px;
+  padding-left: 60px;
+}
+
+.text
+{
+  color: purple;
+  font-size: 30px;
+  font-family: Rajdhani;
+  font-weight: 600;
+  padding: 10px 200px 20px;
+  background-color:#000000;
+  z-index: 1;
+  text-shadow: 0 0 3px, 0 0 3px, 0 0 3px;
+}
+
+@media (max-width: 500px) {
+  .heading
+  {
+    color: #896790;
+    font-family: Rajdhani;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  .skills
+  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .text2
+  {
+    color: purple;
+    font-size: 30px;
+    font-family: Rajdhani;
+    font-weight: 600;
+    padding: 10px 50px 20px;
+  }
+}

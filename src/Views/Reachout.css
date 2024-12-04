@@ -1,0 +1,25 @@
+#reachout
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2
+{
+    color: green;    
+    font-family: var(--font-family);
+    text-shadow: 0 0 2px, 0 0 2px, 0 0 2px;
+}
+
+.reacticon
+{
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    color: indigo;
+}
+
+.reacticon:hover {
+    color: lightseagreen;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+nav {
+    font-family: var(--font-family);
+    background-color: black;
+    z-index: 2;
+}
+
+li
+{
+  display: inline-block;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+}
+
+li:hover
+{
+  color: red;
+}
+
+.terminal
+{
+  position: absolute;
+  top: 1px; 
+  left: 1px;
+  width: 1920px;
+  height: 1080px;
+  opacity: 0.90;
+}
+
+/*FIX edit fonts here */
+#terminalEditor
+{
+  font-size: 14px !important;
+  font-weight: 100 !important;
+  font-family: "Aldrich";
+}
+
+button
+{
+  all: unset;
+  font-family: var(--font-family);
+  color: green;
+  background-color: black;
+}
+
+button:hover
+{
+  color: red;
+}
